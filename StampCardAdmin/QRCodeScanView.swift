@@ -67,7 +67,7 @@ struct QRCodeScanView: View {
             self.isShowAlert.toggle()
             
         case .failure(let error):
-            print("Scanning failed")
+            print("Scanning failed: \(error)")
         }
     }
     

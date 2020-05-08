@@ -16,6 +16,7 @@
 		AE109C16246566D9009CCC93 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AE109C14246566D9009CCC93 /* LaunchScreen.storyboard */; };
 		AE109C21246566DA009CCC93 /* StampCardAdminTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE109C20246566DA009CCC93 /* StampCardAdminTests.swift */; };
 		AE109C2C246566DA009CCC93 /* StampCardAdminUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE109C2B246566DA009CCC93 /* StampCardAdminUITests.swift */; };
+		AE109C3A24656817009CCC93 /* QRCodeScanView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE109C3924656817009CCC93 /* QRCodeScanView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,7 @@
 		AE109C27246566DA009CCC93 /* StampCardAdminUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = StampCardAdminUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		AE109C2B246566DA009CCC93 /* StampCardAdminUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StampCardAdminUITests.swift; sourceTree = "<group>"; };
 		AE109C2D246566DA009CCC93 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AE109C3924656817009CCC93 /* QRCodeScanView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QRCodeScanView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -104,6 +106,7 @@
 				AE109C06246566D3009CCC93 /* AppDelegate.swift */,
 				AE109C08246566D3009CCC93 /* SceneDelegate.swift */,
 				AE109C0D246566D3009CCC93 /* ContentView.swift */,
+				AE109C3924656817009CCC93 /* QRCodeScanView.swift */,
 				AE109C0F246566D9009CCC93 /* Assets.xcassets */,
 				AE109C14246566D9009CCC93 /* LaunchScreen.storyboard */,
 				AE109C17246566D9009CCC93 /* Info.plist */,
@@ -272,6 +275,7 @@
 			files = (
 				AE109C07246566D3009CCC93 /* AppDelegate.swift in Sources */,
 				AE109C0C246566D3009CCC93 /* StampCardAdmin.xcdatamodeld in Sources */,
+				AE109C3A24656817009CCC93 /* QRCodeScanView.swift in Sources */,
 				AE109C0E246566D3009CCC93 /* ContentView.swift in Sources */,
 				AE109C09246566D3009CCC93 /* SceneDelegate.swift in Sources */,
 			);

@@ -10,7 +10,14 @@ import SwiftUI
 
 struct ContentView: View {
     var body: some View {
-        Text("Hello, World!")
+        NavigationView {
+            VStack {
+                NavigationLink(destination: QRCodeScanView()) {
+                    Text("QRコードを読み取る")
+                }
+            }
+            .navigationBarTitle(Text("Stamp Card Admin"), displayMode:.inline)
+        }
     }
 }
 

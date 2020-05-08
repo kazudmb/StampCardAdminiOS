@@ -24,6 +24,7 @@ struct QRCodeScanView: View {
             }),
               secondaryButton:
             .default(Text("OK"), action: {
+                self.getNumberOfVisits()
                 print("OK tapped")})
         )
     }
@@ -63,10 +64,27 @@ struct QRCodeScanView: View {
         db.collection("users").document(uid).getDocument { (document, err) in
             if let document = document, document.exists {
                 let numberOfVisits = document.data()?["NumberOfVisits"] as? Int ?? 0
+                self.increaseNumberOfVisits(numberOfVisits: numberOfVisits)
                 let dataDescription = document.data().map(String.init(describing:)) ?? "nil"
                 print("Document data: \(dataDescription)")
             } else {
                 print("Document does not exist")
+            }
+        }
+    }
+    
+    private func increaseNumberOfVisits(numberOfVisits :Int) {
+        let settings = FirestoreSettings()
+        Firestore.firestore().settings = settings
+        let db = Firestore.firestore()
+        
+        db.collection("users").document(uid).updateData([
+            "NumberOfVisits" : numberOfVisits + 1
+        ]) { err in
+            if let err = err {
+                print("Error updating document: \(err)")
+            } else {
+                print("Document successfully updated")
             }
         }
     }

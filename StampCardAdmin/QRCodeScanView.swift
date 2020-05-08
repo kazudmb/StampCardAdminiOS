@@ -7,10 +7,33 @@
 //
 
 import SwiftUI
+import CodeScanner
 
 struct QRCodeScanView: View {
+    @State private var isShowingScanner = false
     var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
+        ZStack {
+            CodeScannerView(codeTypes: [.qr], simulatedData: "", completion: self.handleScan)
+            VStack() {
+                Spacer()
+                Text("QRコードを画面に写すとスキャンします。")
+                    .padding()
+                    .padding(.bottom)
+            }
+        }
+    }
+    
+    func handleScan(result: Result<String, CodeScannerView.ScanError>) {
+        
+        self.isShowingScanner = false
+        
+        switch result {
+        case .success(let code):
+            print("Scanning success")
+            
+        case .failure(let error):
+            print("Scanning failed")
+        }
     }
 }
 

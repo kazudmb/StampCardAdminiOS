@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 52;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -17,6 +17,7 @@
 		AE109C21246566DA009CCC93 /* StampCardAdminTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE109C20246566DA009CCC93 /* StampCardAdminTests.swift */; };
 		AE109C2C246566DA009CCC93 /* StampCardAdminUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE109C2B246566DA009CCC93 /* StampCardAdminUITests.swift */; };
 		AE109C3A24656817009CCC93 /* QRCodeScanView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE109C3924656817009CCC93 /* QRCodeScanView.swift */; };
+		AE109C3D246570F9009CCC93 /* CodeScanner in Frameworks */ = {isa = PBXBuildFile; productRef = AE109C3C246570F9009CCC93 /* CodeScanner */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -60,6 +61,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AE109C3D246570F9009CCC93 /* CodeScanner in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -158,6 +160,9 @@
 			dependencies = (
 			);
 			name = StampCardAdmin;
+			packageProductDependencies = (
+				AE109C3C246570F9009CCC93 /* CodeScanner */,
+			);
 			productName = StampCardAdmin;
 			productReference = AE109C03246566D3009CCC93 /* StampCardAdmin.app */;
 			productType = "com.apple.product-type.application";
@@ -230,6 +235,9 @@
 				Base,
 			);
 			mainGroup = AE109BFA246566D2009CCC93;
+			packageReferences = (
+				AE109C3B246570F9009CCC93 /* XCRemoteSwiftPackageReference "CodeScanner" */,
+			);
 			productRefGroup = AE109C04246566D3009CCC93 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -602,6 +610,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		AE109C3B246570F9009CCC93 /* XCRemoteSwiftPackageReference "CodeScanner" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/twostraws/CodeScanner";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 1.0.6;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		AE109C3C246570F9009CCC93 /* CodeScanner */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = AE109C3B246570F9009CCC93 /* XCRemoteSwiftPackageReference "CodeScanner" */;
+			productName = CodeScanner;
+		};
+/* End XCSwiftPackageProductDependency section */
 
 /* Begin XCVersionGroup section */
 		AE109C0A246566D3009CCC93 /* StampCardAdmin.xcdatamodeld */ = {

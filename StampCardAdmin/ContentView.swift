@@ -9,11 +9,18 @@
 import SwiftUI
 
 struct ContentView: View {
+    @State var isShowQRCodeScanView = false
+    
     var body: some View {
         NavigationView {
             VStack {
-                NavigationLink(destination: QRCodeScanView()) {
+                Button(action: {
+                    self.isShowQRCodeScanView.toggle()
+                }) {
                     Text("QRコードを読み取る")
+                }
+                NavigationLink(destination: QRCodeScanView(isShowQRCodeScanView: $isShowQRCodeScanView), isActive:  $isShowQRCodeScanView) {
+                    EmptyView()
                 }
             }
             .navigationBarTitle(Text("Stamp Card Admin"), displayMode:.inline)

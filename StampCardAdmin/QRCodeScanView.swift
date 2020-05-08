@@ -15,6 +15,7 @@ struct QRCodeScanView: View {
     @State private var isShowingScanner = false
     @State private var isShowAlert = false
     @State private var isShowAlertOfConfirm = false
+    @Binding var isShowQRCodeScanView: Bool
     
     var alert: Alert{
         if self.isShowAlertOfConfirm {
@@ -33,7 +34,12 @@ struct QRCodeScanView: View {
                 })
             )
         } else {
-            return Alert(title: Text("完了"),message: Text("スタンプを押しました"))
+            return Alert(title: Text("完了"),
+                         message: Text("スタンプを押しました"),
+                         dismissButton:
+                .default(Text("OK"),action: {
+                    self.isShowQRCodeScanView.toggle()
+                }))
         }
     }
     
@@ -102,6 +108,6 @@ struct QRCodeScanView: View {
 
 struct QRCodeScanView_Previews: PreviewProvider {
     static var previews: some View {
-        QRCodeScanView()
+        EmptyView()
     }
 }

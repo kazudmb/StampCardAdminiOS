@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bucket
+   uuid = "AEB11BCA-1438-4848-A20A-7CE192E31C2C"
+   type = "0"
+   version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "A2F1643A-5738-4352-89D1-596FD7EF0EFF"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "StampCardAdmin/QRCodeScanView.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "48"
+            endingLineNumber = "48"
+            landmarkName = "handleScan(result:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "A2F1643A-5738-4352-89D1-596FD7EF0EFF - 59ae4f937f455dc5"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "StampCardAdmin.QRCodeScanView.(handleScan in _D54D2B9C71F675C0FAFBC6F411D9728A)(result: Swift.Result&lt;Swift.String, CodeScanner.CodeScannerView.ScanError&gt;) -&gt; ()"
+                  moduleName = "StampCardAdmin"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/kazukinakano/Documents/SwiftProjects/StampCardAdmin/StampCardAdmin/StampCardAdmin/QRCodeScanView.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "49"
+                  endingLineNumber = "49"
+                  offsetFromSymbolStart = "312">
+               </Location>
+               <Location
+                  uuid = "A2F1643A-5738-4352-89D1-596FD7EF0EFF - 59ae4f937f455dc5"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "StampCardAdmin.QRCodeScanView.(handleScan in _D54D2B9C71F675C0FAFBC6F411D9728A)(result: Swift.Result&lt;Swift.String, CodeScanner.CodeScannerView.ScanError&gt;) -&gt; ()"
+                  moduleName = "StampCardAdmin"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/kazukinakano/Documents/SwiftProjects/StampCardAdmin/StampCardAdmin/StampCardAdmin/QRCodeScanView.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "49"
+                  endingLineNumber = "49"
+                  offsetFromSymbolStart = "340">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "AF0ABEFF-9CD8-47A8-A3E7-E7FF06645E98"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "StampCardAdmin/QRCodeScanView.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "46"
+            endingLineNumber = "46"
+            landmarkName = "handleScan(result:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "AF0ABEFF-9CD8-47A8-A3E7-E7FF06645E98 - 59ae4f937f455dc5"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "StampCardAdmin.QRCodeScanView.(handleScan in _D54D2B9C71F675C0FAFBC6F411D9728A)(result: Swift.Result&lt;Swift.String, CodeScanner.CodeScannerView.ScanError&gt;) -&gt; ()"
+                  moduleName = "StampCardAdmin"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/kazukinakano/Documents/SwiftProjects/StampCardAdmin/StampCardAdmin/StampCardAdmin/QRCodeScanView.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "49"
+                  endingLineNumber = "49"
+                  offsetFromSymbolStart = "312">
+               </Location>
+               <Location
+                  uuid = "AF0ABEFF-9CD8-47A8-A3E7-E7FF06645E98 - 59ae4f937f455dc5"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "StampCardAdmin.QRCodeScanView.(handleScan in _D54D2B9C71F675C0FAFBC6F411D9728A)(result: Swift.Result&lt;Swift.String, CodeScanner.CodeScannerView.ScanError&gt;) -&gt; ()"
+                  moduleName = "StampCardAdmin"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/kazukinakano/Documents/SwiftProjects/StampCardAdmin/StampCardAdmin/StampCardAdmin/QRCodeScanView.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "49"
+                  endingLineNumber = "49"
+                  offsetFromSymbolStart = "340">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
+</Bucket>

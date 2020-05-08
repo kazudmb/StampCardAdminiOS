@@ -8,8 +8,10 @@
 
 import SwiftUI
 import CodeScanner
+import Firebase
 
 struct QRCodeScanView: View {
+    @State private var uid = ""
     @State private var isShowingScanner = false
     @State private var isShowAlert = false
     
@@ -39,17 +41,33 @@ struct QRCodeScanView: View {
         .alert(isPresented: $isShowAlert, content: {self.alert})
     }
     
-    func handleScan(result: Result<String, CodeScannerView.ScanError>) {
-        
+    private func handleScan(result: Result<String, CodeScannerView.ScanError>) {
         self.isShowingScanner = false
         
         switch result {
         case .success(let code):
+            self.uid = code
             print("Scanning success")
             self.isShowAlert.toggle()
             
         case .failure(let error):
             print("Scanning failed")
+        }
+    }
+    
+    private func getNumberOfVisits() {
+        let settings = FirestoreSettings()
+        Firestore.firestore().settings = settings
+        let db = Firestore.firestore()
+        
+        db.collection("users").document(uid).getDocument { (document, err) in
+            if let document = document, document.exists {
+                let numberOfVisits = document.data()?["NumberOfVisits"] as? Int ?? 0
+                let dataDescription = document.data().map(String.init(describing:)) ?? "nil"
+                print("Document data: \(dataDescription)")
+            } else {
+                print("Document does not exist")
+            }
         }
     }
 }

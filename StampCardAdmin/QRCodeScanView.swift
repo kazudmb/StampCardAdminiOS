@@ -11,6 +11,21 @@ import CodeScanner
 
 struct QRCodeScanView: View {
     @State private var isShowingScanner = false
+    @State private var isShowAlert = false
+    
+    var alert: Alert{
+        Alert(title: Text("確認"),
+              message: Text("スタンプを押しますか？"),
+              primaryButton:
+            .default(Text("キャンセル"), action: {
+                print("cancel tapped")
+            }),
+              secondaryButton:
+            .default(Text("OK"), action: {
+                print("OK tapped")})
+        )
+    }
+    
     var body: some View {
         ZStack {
             CodeScannerView(codeTypes: [.qr], simulatedData: "", completion: self.handleScan)
@@ -21,6 +36,7 @@ struct QRCodeScanView: View {
                     .padding(.bottom)
             }
         }
+        .alert(isPresented: $isShowAlert, content: {self.alert})
     }
     
     func handleScan(result: Result<String, CodeScannerView.ScanError>) {
@@ -30,6 +46,7 @@ struct QRCodeScanView: View {
         switch result {
         case .success(let code):
             print("Scanning success")
+            self.isShowAlert.toggle()
             
         case .failure(let error):
             print("Scanning failed")

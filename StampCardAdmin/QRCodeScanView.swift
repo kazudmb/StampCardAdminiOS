@@ -19,17 +19,16 @@ struct QRCodeScanView: View {
     
     var alert: Alert{
         if self.isShowAlertOfConfirm {
+            self.isShowAlertOfConfirm = false
             return Alert(title: Text("確認"),
                          message: Text("スタンプを押しますか？"),
                          primaryButton:
                 .default(Text("キャンセル"), action: {
                     print("cancel tapped")
-                    self.isShowAlertOfConfirm = false
                 }),
                          secondaryButton:
                 .default(Text("OK"), action: {
                     print("OK tapped")
-                    self.isShowAlertOfConfirm = false
                     self.getNumberOfVisits()
                 })
             )

@@ -14,19 +14,27 @@ struct QRCodeScanView: View {
     @State private var uid = ""
     @State private var isShowingScanner = false
     @State private var isShowAlert = false
+    @State private var isShowAlertOfConfirm = false
     
     var alert: Alert{
-        Alert(title: Text("確認"),
-              message: Text("スタンプを押しますか？"),
-              primaryButton:
-            .default(Text("キャンセル"), action: {
-                print("cancel tapped")
-            }),
-              secondaryButton:
-            .default(Text("OK"), action: {
-                self.getNumberOfVisits()
-                print("OK tapped")})
-        )
+        if self.isShowAlertOfConfirm {
+            return Alert(title: Text("確認"),
+                         message: Text("スタンプを押しますか？"),
+                         primaryButton:
+                .default(Text("キャンセル"), action: {
+                    print("cancel tapped")
+                    self.isShowAlertOfConfirm = false
+                }),
+                         secondaryButton:
+                .default(Text("OK"), action: {
+                    print("OK tapped")
+                    self.isShowAlertOfConfirm = false
+                    self.getNumberOfVisits()
+                })
+            )
+        } else {
+            return Alert(title: Text("完了"),message: Text("スタンプを押しました"))
+        }
     }
     
     var body: some View {
@@ -49,6 +57,7 @@ struct QRCodeScanView: View {
         case .success(let code):
             self.uid = code
             print("Scanning success")
+            self.isShowAlertOfConfirm = true
             self.isShowAlert.toggle()
             
         case .failure(let error):
@@ -85,6 +94,7 @@ struct QRCodeScanView: View {
                 print("Error updating document: \(err)")
             } else {
                 print("Document successfully updated")
+                self.isShowAlert.toggle()
             }
         }
     }

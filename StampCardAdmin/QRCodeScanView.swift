@@ -1,5 +1,5 @@
 //
-//  QRCodeScan.swift
+//  QRCodeScanView.swift
 //  StampCardAdmin
 //
 //  Created by KazukiNakano on 2020/05/08.
@@ -8,14 +8,14 @@
 
 import SwiftUI
 
-struct QRCodeScan: View {
+struct QRCodeScanView: View {
     var body: some View {
         Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
     }
 }
 
-struct QRCodeScan_Previews: PreviewProvider {
+struct QRCodeScanView_Previews: PreviewProvider {
     static var previews: some View {
-        QRCodeScan()
+        QRCodeScanView()
     }
 }

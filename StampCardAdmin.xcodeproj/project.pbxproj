@@ -1,0 +1,616 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		AE109C07246566D3009CCC93 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE109C06246566D3009CCC93 /* AppDelegate.swift */; };
+		AE109C09246566D3009CCC93 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE109C08246566D3009CCC93 /* SceneDelegate.swift */; };
+		AE109C0C246566D3009CCC93 /* StampCardAdmin.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = AE109C0A246566D3009CCC93 /* StampCardAdmin.xcdatamodeld */; };
+		AE109C0E246566D3009CCC93 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE109C0D246566D3009CCC93 /* ContentView.swift */; };
+		AE109C10246566D9009CCC93 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AE109C0F246566D9009CCC93 /* Assets.xcassets */; };
+		AE109C13246566D9009CCC93 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AE109C12246566D9009CCC93 /* Preview Assets.xcassets */; };
+		AE109C16246566D9009CCC93 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AE109C14246566D9009CCC93 /* LaunchScreen.storyboard */; };
+		AE109C21246566DA009CCC93 /* StampCardAdminTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE109C20246566DA009CCC93 /* StampCardAdminTests.swift */; };
+		AE109C2C246566DA009CCC93 /* StampCardAdminUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE109C2B246566DA009CCC93 /* StampCardAdminUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		AE109C1D246566DA009CCC93 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = AE109BFB246566D2009CCC93 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AE109C02246566D3009CCC93;
+			remoteInfo = StampCardAdmin;
+		};
+		AE109C28246566DA009CCC93 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = AE109BFB246566D2009CCC93 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AE109C02246566D3009CCC93;
+			remoteInfo = StampCardAdmin;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		AE109C03246566D3009CCC93 /* StampCardAdmin.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = StampCardAdmin.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		AE109C06246566D3009CCC93 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		AE109C08246566D3009CCC93 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		AE109C0B246566D3009CCC93 /* StampCardAdmin.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = StampCardAdmin.xcdatamodel; sourceTree = "<group>"; };
+		AE109C0D246566D3009CCC93 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		AE109C0F246566D9009CCC93 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		AE109C12246566D9009CCC93 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		AE109C15246566D9009CCC93 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		AE109C17246566D9009CCC93 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AE109C1C246566DA009CCC93 /* StampCardAdminTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = StampCardAdminTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		AE109C20246566DA009CCC93 /* StampCardAdminTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StampCardAdminTests.swift; sourceTree = "<group>"; };
+		AE109C22246566DA009CCC93 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AE109C27246566DA009CCC93 /* StampCardAdminUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = StampCardAdminUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		AE109C2B246566DA009CCC93 /* StampCardAdminUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StampCardAdminUITests.swift; sourceTree = "<group>"; };
+		AE109C2D246566DA009CCC93 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		AE109C00246566D3009CCC93 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AE109C19246566DA009CCC93 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AE109C24246566DA009CCC93 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		AE109BFA246566D2009CCC93 = {
+			isa = PBXGroup;
+			children = (
+				AE109C05246566D3009CCC93 /* StampCardAdmin */,
+				AE109C1F246566DA009CCC93 /* StampCardAdminTests */,
+				AE109C2A246566DA009CCC93 /* StampCardAdminUITests */,
+				AE109C04246566D3009CCC93 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		AE109C04246566D3009CCC93 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				AE109C03246566D3009CCC93 /* StampCardAdmin.app */,
+				AE109C1C246566DA009CCC93 /* StampCardAdminTests.xctest */,
+				AE109C27246566DA009CCC93 /* StampCardAdminUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		AE109C05246566D3009CCC93 /* StampCardAdmin */ = {
+			isa = PBXGroup;
+			children = (
+				AE109C06246566D3009CCC93 /* AppDelegate.swift */,
+				AE109C08246566D3009CCC93 /* SceneDelegate.swift */,
+				AE109C0D246566D3009CCC93 /* ContentView.swift */,
+				AE109C0F246566D9009CCC93 /* Assets.xcassets */,
+				AE109C14246566D9009CCC93 /* LaunchScreen.storyboard */,
+				AE109C17246566D9009CCC93 /* Info.plist */,
+				AE109C0A246566D3009CCC93 /* StampCardAdmin.xcdatamodeld */,
+				AE109C11246566D9009CCC93 /* Preview Content */,
+			);
+			path = StampCardAdmin;
+			sourceTree = "<group>";
+		};
+		AE109C11246566D9009CCC93 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				AE109C12246566D9009CCC93 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		AE109C1F246566DA009CCC93 /* StampCardAdminTests */ = {
+			isa = PBXGroup;
+			children = (
+				AE109C20246566DA009CCC93 /* StampCardAdminTests.swift */,
+				AE109C22246566DA009CCC93 /* Info.plist */,
+			);
+			path = StampCardAdminTests;
+			sourceTree = "<group>";
+		};
+		AE109C2A246566DA009CCC93 /* StampCardAdminUITests */ = {
+			isa = PBXGroup;
+			children = (
+				AE109C2B246566DA009CCC93 /* StampCardAdminUITests.swift */,
+				AE109C2D246566DA009CCC93 /* Info.plist */,
+			);
+			path = StampCardAdminUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		AE109C02246566D3009CCC93 /* StampCardAdmin */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AE109C30246566DA009CCC93 /* Build configuration list for PBXNativeTarget "StampCardAdmin" */;
+			buildPhases = (
+				AE109BFF246566D3009CCC93 /* Sources */,
+				AE109C00246566D3009CCC93 /* Frameworks */,
+				AE109C01246566D3009CCC93 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = StampCardAdmin;
+			productName = StampCardAdmin;
+			productReference = AE109C03246566D3009CCC93 /* StampCardAdmin.app */;
+			productType = "com.apple.product-type.application";
+		};
+		AE109C1B246566DA009CCC93 /* StampCardAdminTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AE109C33246566DA009CCC93 /* Build configuration list for PBXNativeTarget "StampCardAdminTests" */;
+			buildPhases = (
+				AE109C18246566DA009CCC93 /* Sources */,
+				AE109C19246566DA009CCC93 /* Frameworks */,
+				AE109C1A246566DA009CCC93 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				AE109C1E246566DA009CCC93 /* PBXTargetDependency */,
+			);
+			name = StampCardAdminTests;
+			productName = StampCardAdminTests;
+			productReference = AE109C1C246566DA009CCC93 /* StampCardAdminTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		AE109C26246566DA009CCC93 /* StampCardAdminUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AE109C36246566DA009CCC93 /* Build configuration list for PBXNativeTarget "StampCardAdminUITests" */;
+			buildPhases = (
+				AE109C23246566DA009CCC93 /* Sources */,
+				AE109C24246566DA009CCC93 /* Frameworks */,
+				AE109C25246566DA009CCC93 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				AE109C29246566DA009CCC93 /* PBXTargetDependency */,
+			);
+			name = StampCardAdminUITests;
+			productName = StampCardAdminUITests;
+			productReference = AE109C27246566DA009CCC93 /* StampCardAdminUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		AE109BFB246566D2009CCC93 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1140;
+				LastUpgradeCheck = 1140;
+				ORGANIZATIONNAME = kazudmb;
+				TargetAttributes = {
+					AE109C02246566D3009CCC93 = {
+						CreatedOnToolsVersion = 11.4;
+					};
+					AE109C1B246566DA009CCC93 = {
+						CreatedOnToolsVersion = 11.4;
+						TestTargetID = AE109C02246566D3009CCC93;
+					};
+					AE109C26246566DA009CCC93 = {
+						CreatedOnToolsVersion = 11.4;
+						TestTargetID = AE109C02246566D3009CCC93;
+					};
+				};
+			};
+			buildConfigurationList = AE109BFE246566D2009CCC93 /* Build configuration list for PBXProject "StampCardAdmin" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = AE109BFA246566D2009CCC93;
+			productRefGroup = AE109C04246566D3009CCC93 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				AE109C02246566D3009CCC93 /* StampCardAdmin */,
+				AE109C1B246566DA009CCC93 /* StampCardAdminTests */,
+				AE109C26246566DA009CCC93 /* StampCardAdminUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		AE109C01246566D3009CCC93 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AE109C16246566D9009CCC93 /* LaunchScreen.storyboard in Resources */,
+				AE109C13246566D9009CCC93 /* Preview Assets.xcassets in Resources */,
+				AE109C10246566D9009CCC93 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AE109C1A246566DA009CCC93 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AE109C25246566DA009CCC93 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		AE109BFF246566D3009CCC93 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AE109C07246566D3009CCC93 /* AppDelegate.swift in Sources */,
+				AE109C0C246566D3009CCC93 /* StampCardAdmin.xcdatamodeld in Sources */,
+				AE109C0E246566D3009CCC93 /* ContentView.swift in Sources */,
+				AE109C09246566D3009CCC93 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AE109C18246566DA009CCC93 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AE109C21246566DA009CCC93 /* StampCardAdminTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AE109C23246566DA009CCC93 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AE109C2C246566DA009CCC93 /* StampCardAdminUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		AE109C1E246566DA009CCC93 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = AE109C02246566D3009CCC93 /* StampCardAdmin */;
+			targetProxy = AE109C1D246566DA009CCC93 /* PBXContainerItemProxy */;
+		};
+		AE109C29246566DA009CCC93 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = AE109C02246566D3009CCC93 /* StampCardAdmin */;
+			targetProxy = AE109C28246566DA009CCC93 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		AE109C14246566D9009CCC93 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AE109C15246566D9009CCC93 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		AE109C2E246566DA009CCC93 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		AE109C2F246566DA009CCC93 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		AE109C31246566DA009CCC93 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"StampCardAdmin/Preview Content\"";
+				DEVELOPMENT_TEAM = 5K97LXLCKT;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = StampCardAdmin/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = kazudmb.StampCardAdmin;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		AE109C32246566DA009CCC93 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"StampCardAdmin/Preview Content\"";
+				DEVELOPMENT_TEAM = 5K97LXLCKT;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = StampCardAdmin/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = kazudmb.StampCardAdmin;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		AE109C34246566DA009CCC93 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 5K97LXLCKT;
+				INFOPLIST_FILE = StampCardAdminTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = kazudmb.StampCardAdminTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/StampCardAdmin.app/StampCardAdmin";
+			};
+			name = Debug;
+		};
+		AE109C35246566DA009CCC93 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 5K97LXLCKT;
+				INFOPLIST_FILE = StampCardAdminTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = kazudmb.StampCardAdminTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/StampCardAdmin.app/StampCardAdmin";
+			};
+			name = Release;
+		};
+		AE109C37246566DA009CCC93 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 5K97LXLCKT;
+				INFOPLIST_FILE = StampCardAdminUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = kazudmb.StampCardAdminUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = StampCardAdmin;
+			};
+			name = Debug;
+		};
+		AE109C38246566DA009CCC93 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 5K97LXLCKT;
+				INFOPLIST_FILE = StampCardAdminUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = kazudmb.StampCardAdminUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = StampCardAdmin;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		AE109BFE246566D2009CCC93 /* Build configuration list for PBXProject "StampCardAdmin" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AE109C2E246566DA009CCC93 /* Debug */,
+				AE109C2F246566DA009CCC93 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AE109C30246566DA009CCC93 /* Build configuration list for PBXNativeTarget "StampCardAdmin" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AE109C31246566DA009CCC93 /* Debug */,
+				AE109C32246566DA009CCC93 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AE109C33246566DA009CCC93 /* Build configuration list for PBXNativeTarget "StampCardAdminTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AE109C34246566DA009CCC93 /* Debug */,
+				AE109C35246566DA009CCC93 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AE109C36246566DA009CCC93 /* Build configuration list for PBXNativeTarget "StampCardAdminUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AE109C37246566DA009CCC93 /* Debug */,
+				AE109C38246566DA009CCC93 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		AE109C0A246566D3009CCC93 /* StampCardAdmin.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				AE109C0B246566D3009CCC93 /* StampCardAdmin.xcdatamodel */,
+			);
+			currentVersion = AE109C0B246566D3009CCC93 /* StampCardAdmin.xcdatamodel */;
+			path = StampCardAdmin.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = AE109BFB246566D2009CCC93 /* Project object */;
+}

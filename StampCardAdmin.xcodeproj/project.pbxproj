@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		872D1E2C96EC2842EF35E628 /* Pods_StampCardAdminTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6A86436309F4D71E56129B51 /* Pods_StampCardAdminTests.framework */; };
+		95BAC3A27ED4DD77F5B22224 /* Pods_StampCardAdmin_StampCardAdminUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 073F0BC23E2F43A055E66934 /* Pods_StampCardAdmin_StampCardAdminUITests.framework */; };
+		A1C08A4F80EE7F52E46DEBEF /* Pods_StampCardAdmin.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0E5E59ABA30348F2BC14D32E /* Pods_StampCardAdmin.framework */; };
 		AE109C07246566D3009CCC93 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE109C06246566D3009CCC93 /* AppDelegate.swift */; };
 		AE109C09246566D3009CCC93 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE109C08246566D3009CCC93 /* SceneDelegate.swift */; };
 		AE109C0C246566D3009CCC93 /* StampCardAdmin.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = AE109C0A246566D3009CCC93 /* StampCardAdmin.xcdatamodeld */; };
@@ -17,7 +20,8 @@
 		AE109C21246566DA009CCC93 /* StampCardAdminTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE109C20246566DA009CCC93 /* StampCardAdminTests.swift */; };
 		AE109C2C246566DA009CCC93 /* StampCardAdminUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE109C2B246566DA009CCC93 /* StampCardAdminUITests.swift */; };
 		AE109C3A24656817009CCC93 /* QRCodeScanView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE109C3924656817009CCC93 /* QRCodeScanView.swift */; };
-		AE109C3D246570F9009CCC93 /* CodeScanner in Frameworks */ = {isa = PBXBuildFile; productRef = AE109C3C246570F9009CCC93 /* CodeScanner */; };
+		AE109C3D246570F9009CCC93 /* BuildFile in Frameworks */ = {isa = PBXBuildFile; productRef = AE109C3C246570F9009CCC93 /* SwiftPackageProductDependency */; };
+		AE109C3F24658C32009CCC93 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = AE109C3E24658C32009CCC93 /* GoogleService-Info.plist */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -38,6 +42,14 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		073F0BC23E2F43A055E66934 /* Pods_StampCardAdmin_StampCardAdminUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_StampCardAdmin_StampCardAdminUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		091A9ABE7B3BAEC0D1679E58 /* Pods-StampCardAdmin.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-StampCardAdmin.release.xcconfig"; path = "Target Support Files/Pods-StampCardAdmin/Pods-StampCardAdmin.release.xcconfig"; sourceTree = "<group>"; };
+		0E5E59ABA30348F2BC14D32E /* Pods_StampCardAdmin.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_StampCardAdmin.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		5F8B393B7D5DA77242983BAC /* Pods-StampCardAdminTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-StampCardAdminTests.debug.xcconfig"; path = "Target Support Files/Pods-StampCardAdminTests/Pods-StampCardAdminTests.debug.xcconfig"; sourceTree = "<group>"; };
+		61DDAAFA6B47E91009607D42 /* Pods-StampCardAdmin-StampCardAdminUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-StampCardAdmin-StampCardAdminUITests.debug.xcconfig"; path = "Target Support Files/Pods-StampCardAdmin-StampCardAdminUITests/Pods-StampCardAdmin-StampCardAdminUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		6A86436309F4D71E56129B51 /* Pods_StampCardAdminTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_StampCardAdminTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		841D85BB005E5A98FE9F84BC /* Pods-StampCardAdmin.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-StampCardAdmin.debug.xcconfig"; path = "Target Support Files/Pods-StampCardAdmin/Pods-StampCardAdmin.debug.xcconfig"; sourceTree = "<group>"; };
+		A6CA7A1D4D58E99FCB7B7DA5 /* Pods-StampCardAdminTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-StampCardAdminTests.release.xcconfig"; path = "Target Support Files/Pods-StampCardAdminTests/Pods-StampCardAdminTests.release.xcconfig"; sourceTree = "<group>"; };
 		AE109C03246566D3009CCC93 /* StampCardAdmin.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = StampCardAdmin.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		AE109C06246566D3009CCC93 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		AE109C08246566D3009CCC93 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -54,6 +66,8 @@
 		AE109C2B246566DA009CCC93 /* StampCardAdminUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StampCardAdminUITests.swift; sourceTree = "<group>"; };
 		AE109C2D246566DA009CCC93 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		AE109C3924656817009CCC93 /* QRCodeScanView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QRCodeScanView.swift; sourceTree = "<group>"; };
+		AE109C3E24658C32009CCC93 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		EA2A393C0B3F4B601B092366 /* Pods-StampCardAdmin-StampCardAdminUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-StampCardAdmin-StampCardAdminUITests.release.xcconfig"; path = "Target Support Files/Pods-StampCardAdmin-StampCardAdminUITests/Pods-StampCardAdmin-StampCardAdminUITests.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -61,7 +75,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				AE109C3D246570F9009CCC93 /* CodeScanner in Frameworks */,
+				AE109C3D246570F9009CCC93 /* BuildFile in Frameworks */,
+				A1C08A4F80EE7F52E46DEBEF /* Pods_StampCardAdmin.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -69,6 +84,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				872D1E2C96EC2842EF35E628 /* Pods_StampCardAdminTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -76,12 +92,23 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				95BAC3A27ED4DD77F5B22224 /* Pods_StampCardAdmin_StampCardAdminUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		179E26628821989B4972E83A /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				0E5E59ABA30348F2BC14D32E /* Pods_StampCardAdmin.framework */,
+				073F0BC23E2F43A055E66934 /* Pods_StampCardAdmin_StampCardAdminUITests.framework */,
+				6A86436309F4D71E56129B51 /* Pods_StampCardAdminTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		AE109BFA246566D2009CCC93 = {
 			isa = PBXGroup;
 			children = (
@@ -89,6 +116,8 @@
 				AE109C1F246566DA009CCC93 /* StampCardAdminTests */,
 				AE109C2A246566DA009CCC93 /* StampCardAdminUITests */,
 				AE109C04246566D3009CCC93 /* Products */,
+				EB258366F916B9E8970A1283 /* Pods */,
+				179E26628821989B4972E83A /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -112,6 +141,7 @@
 				AE109C0F246566D9009CCC93 /* Assets.xcassets */,
 				AE109C14246566D9009CCC93 /* LaunchScreen.storyboard */,
 				AE109C17246566D9009CCC93 /* Info.plist */,
+				AE109C3E24658C32009CCC93 /* GoogleService-Info.plist */,
 				AE109C0A246566D3009CCC93 /* StampCardAdmin.xcdatamodeld */,
 				AE109C11246566D9009CCC93 /* Preview Content */,
 			);
@@ -144,6 +174,20 @@
 			path = StampCardAdminUITests;
 			sourceTree = "<group>";
 		};
+		EB258366F916B9E8970A1283 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				841D85BB005E5A98FE9F84BC /* Pods-StampCardAdmin.debug.xcconfig */,
+				091A9ABE7B3BAEC0D1679E58 /* Pods-StampCardAdmin.release.xcconfig */,
+				61DDAAFA6B47E91009607D42 /* Pods-StampCardAdmin-StampCardAdminUITests.debug.xcconfig */,
+				EA2A393C0B3F4B601B092366 /* Pods-StampCardAdmin-StampCardAdminUITests.release.xcconfig */,
+				5F8B393B7D5DA77242983BAC /* Pods-StampCardAdminTests.debug.xcconfig */,
+				A6CA7A1D4D58E99FCB7B7DA5 /* Pods-StampCardAdminTests.release.xcconfig */,
+			);
+			name = Pods;
+			path = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -151,9 +195,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = AE109C30246566DA009CCC93 /* Build configuration list for PBXNativeTarget "StampCardAdmin" */;
 			buildPhases = (
+				77AE2357848DD99D90378F28 /* [CP] Check Pods Manifest.lock */,
 				AE109BFF246566D3009CCC93 /* Sources */,
 				AE109C00246566D3009CCC93 /* Frameworks */,
 				AE109C01246566D3009CCC93 /* Resources */,
+				8B5B9C73FB7303CAC9C63460 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -161,7 +207,7 @@
 			);
 			name = StampCardAdmin;
 			packageProductDependencies = (
-				AE109C3C246570F9009CCC93 /* CodeScanner */,
+				AE109C3C246570F9009CCC93 /* SwiftPackageProductDependency */,
 			);
 			productName = StampCardAdmin;
 			productReference = AE109C03246566D3009CCC93 /* StampCardAdmin.app */;
@@ -171,6 +217,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = AE109C33246566DA009CCC93 /* Build configuration list for PBXNativeTarget "StampCardAdminTests" */;
 			buildPhases = (
+				4271BAC663DBBEBCEBBE93BB /* [CP] Check Pods Manifest.lock */,
 				AE109C18246566DA009CCC93 /* Sources */,
 				AE109C19246566DA009CCC93 /* Frameworks */,
 				AE109C1A246566DA009CCC93 /* Resources */,
@@ -189,9 +236,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = AE109C36246566DA009CCC93 /* Build configuration list for PBXNativeTarget "StampCardAdminUITests" */;
 			buildPhases = (
+				58F7E4640CE6000DABF4FC19 /* [CP] Check Pods Manifest.lock */,
 				AE109C23246566DA009CCC93 /* Sources */,
 				AE109C24246566DA009CCC93 /* Frameworks */,
 				AE109C25246566DA009CCC93 /* Resources */,
+				9BAAA5DBBD3A7EA16358C867 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -236,7 +285,7 @@
 			);
 			mainGroup = AE109BFA246566D2009CCC93;
 			packageReferences = (
-				AE109C3B246570F9009CCC93 /* XCRemoteSwiftPackageReference "CodeScanner" */,
+				AE109C3B246570F9009CCC93 /* RemoteSwiftPackageReference */,
 			);
 			productRefGroup = AE109C04246566D3009CCC93 /* Products */;
 			projectDirPath = "";
@@ -255,6 +304,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				AE109C16246566D9009CCC93 /* LaunchScreen.storyboard in Resources */,
+				AE109C3F24658C32009CCC93 /* GoogleService-Info.plist in Resources */,
 				AE109C13246566D9009CCC93 /* Preview Assets.xcassets in Resources */,
 				AE109C10246566D9009CCC93 /* Assets.xcassets in Resources */,
 			);
@@ -275,6 +325,109 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		4271BAC663DBBEBCEBBE93BB /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-StampCardAdminTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		58F7E4640CE6000DABF4FC19 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-StampCardAdmin-StampCardAdminUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		77AE2357848DD99D90378F28 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-StampCardAdmin-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		8B5B9C73FB7303CAC9C63460 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-StampCardAdmin/Pods-StampCardAdmin-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-StampCardAdmin/Pods-StampCardAdmin-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-StampCardAdmin/Pods-StampCardAdmin-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9BAAA5DBBD3A7EA16358C867 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-StampCardAdmin-StampCardAdminUITests/Pods-StampCardAdmin-StampCardAdminUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-StampCardAdmin-StampCardAdminUITests/Pods-StampCardAdmin-StampCardAdminUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-StampCardAdmin-StampCardAdminUITests/Pods-StampCardAdmin-StampCardAdminUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		AE109BFF246566D3009CCC93 /* Sources */ = {
@@ -448,6 +601,7 @@
 		};
 		AE109C31246566DA009CCC93 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 841D85BB005E5A98FE9F84BC /* Pods-StampCardAdmin.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -459,7 +613,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = kazudmb.StampCardAdmin;
+				PRODUCT_BUNDLE_IDENTIFIER = com.kazudmb.StampCardAdmin;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -468,6 +622,7 @@
 		};
 		AE109C32246566DA009CCC93 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 091A9ABE7B3BAEC0D1679E58 /* Pods-StampCardAdmin.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -479,7 +634,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = kazudmb.StampCardAdmin;
+				PRODUCT_BUNDLE_IDENTIFIER = com.kazudmb.StampCardAdmin;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -488,6 +643,7 @@
 		};
 		AE109C34246566DA009CCC93 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5F8B393B7D5DA77242983BAC /* Pods-StampCardAdminTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -510,6 +666,7 @@
 		};
 		AE109C35246566DA009CCC93 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = A6CA7A1D4D58E99FCB7B7DA5 /* Pods-StampCardAdminTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -532,6 +689,7 @@
 		};
 		AE109C37246566DA009CCC93 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 61DDAAFA6B47E91009607D42 /* Pods-StampCardAdmin-StampCardAdminUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -552,6 +710,7 @@
 		};
 		AE109C38246566DA009CCC93 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = EA2A393C0B3F4B601B092366 /* Pods-StampCardAdmin-StampCardAdminUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -612,7 +771,7 @@
 /* End XCConfigurationList section */
 
 /* Begin XCRemoteSwiftPackageReference section */
-		AE109C3B246570F9009CCC93 /* XCRemoteSwiftPackageReference "CodeScanner" */ = {
+		AE109C3B246570F9009CCC93 /* RemoteSwiftPackageReference */ = {
 			isa = XCRemoteSwiftPackageReference;
 			repositoryURL = "https://github.com/twostraws/CodeScanner";
 			requirement = {
@@ -623,9 +782,9 @@
 /* End XCRemoteSwiftPackageReference section */
 
 /* Begin XCSwiftPackageProductDependency section */
-		AE109C3C246570F9009CCC93 /* CodeScanner */ = {
+		AE109C3C246570F9009CCC93 /* SwiftPackageProductDependency */ = {
 			isa = XCSwiftPackageProductDependency;
-			package = AE109C3B246570F9009CCC93 /* XCRemoteSwiftPackageReference "CodeScanner" */;
+			package = AE109C3B246570F9009CCC93 /* RemoteSwiftPackageReference */;
 			productName = CodeScanner;
 		};
 /* End XCSwiftPackageProductDependency section */

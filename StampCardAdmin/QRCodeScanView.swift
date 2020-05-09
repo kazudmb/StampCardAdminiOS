@@ -12,7 +12,6 @@ import Firebase
 
 struct QRCodeScanView: View {
     @State private var uid = ""
-    @State private var isShowingScanner = false
     @State private var isShowAlert = false
     @State private var isShowAlertOfConfirm = false
     @Binding var isShowQRCodeScanView: Bool
@@ -57,8 +56,6 @@ struct QRCodeScanView: View {
     }
     
     private func handleScan(result: Result<String, CodeScannerView.ScanError>) {
-        self.isShowingScanner = false
-        
         switch result {
         case .success(let code):
             self.uid = code
